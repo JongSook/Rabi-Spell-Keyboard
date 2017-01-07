@@ -138,7 +138,7 @@ function startExperiment
 	
 		%% SAVING
     if saving
-        if checkEEGData(data) ==1
+%         if checkEEGData(data) ==1
 			saveData(...
 			data,...
 			time,...
@@ -150,9 +150,9 @@ function startExperiment
 			preFixationTime,...
 			postFixationTime,...
 			subject)
-        else
-          trial = trial+1;
-        end
+%         else
+%           trial = trial+1;
+%         end
         
     end
       
